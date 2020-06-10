@@ -53,7 +53,7 @@ if ('2' !== 2) {
     console.log('Java to nie Java script');
 }
 
-const region = 'Sieradz'
+const region = 'miasto y'
  
 const humanTwo = {
     age: 30,
@@ -62,7 +62,7 @@ const humanTwo = {
         girlfriendName: 'Marta',
         girlfriendAge: 28,
         marriage: true,
-        region: 'Sieradz',
+        region: 'miastox',
     }
 }
 
@@ -130,7 +130,7 @@ button.addEventListener('click', myClick); */
 const button = document.querySelector('.heading__button--js');
 
 const myClick = () => {
-    createContent('.main__heading--js',`${humanOne.name} loves functions in JS <3`);
+    createContent('.main__heading--js',`Hello ${humanOne.name}`);
     toggleClass('.main__heading--js', 'main__heading');
     createClass('.main__heading--js', 'nowa-klasa-z-js');
 }
@@ -146,5 +146,5 @@ const hamburgerClick = () => {
 
 hamburgerMenu.addEventListener('click', hamburgerClick);
 
-console.log(humanOne)
-console.log(humanTwo)
+/* console.log(humanOne)
+console.log(humanTwo) */

@@ -1,4 +1,4 @@
-const region = 'Sieradz'
+const region = 'miasto y'
 
 export const humanOne = {
     age: 27,
